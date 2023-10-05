@@ -1,0 +1,159 @@
+@media(width > 1439px)
+{
+    .main{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        height: 100vh;
+    }
+    .container{
+        width: 736px;
+        height: 512px;
+        border-radius: 32px;
+        background: var(--White, #FFF);
+        box-shadow: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: auto;
+    }
+    .box{
+        width: 368px;
+        height: 512px;
+        border-radius: 32px;
+        background: var(--Gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
+    }
+    .box2{
+        width: 368px;
+        height: 512px;
+        border-radius: 32px;
+    }
+    h3{
+        padding: 38px 124px 35px 119px;
+        color: var(--Light-Blue, #CAC9FF);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Hanken Grotesk;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .circle{
+        width: 200px;
+        height: 200px;
+        margin: 0 84px 28px;
+        padding: 55px 60px 73px 59px;
+    }
+    h1{
+        color: var(--White, #FFF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Hanken Grotesk;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 72px; 
+    }
+    h6{
+        padding-left: 14px;
+        color: var(--Light-Blue, #CAC9FF);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Hanken Grotesk;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    h2{
+        color: var(--White, #FFF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Hanken Grotesk;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding: 0 145px 14px 140px;
+    }
+    .urperf{
+        color: var(--Light-Blue, #CAC9FF);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Hanken Grotesk;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 0 54px 55px;
+    }
+    .summary{
+        color: var(--Dark-Navy, #303B59);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Hanken Grotesk;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 14px 224px 0px 40px ;
+    }
+    .qvemot{
+        margin-left: 56px;
+        width: 368px;
+    }
+    .reac{
+        color: var(--Red, #F55);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Hanken Grotesk;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-right: 81px;
+    }
+    .memory{
+        color: var(--Yellow, #FFB21E);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Hanken Grotesk;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-right: 84px;
+    }
+    .Verbal{
+        color: var(--Green, #00BB8F);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Hanken Grotesk;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-right: 99px;
+    }
+    .visual{
+        color: var(--Blue, #1125D6);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Hanken Grotesk;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-right: 102px;
+    }
+   
+    .mmr, .vrbl, .rct{
+        margin-bottom: 49px;
+    }
+    .vsl{
+        margin-bottom: 57px;
+    }
+    .continue{
+        width: 288px;
+        height: 56px;
+        margin: 0 40px 46px;
+        background: var(--Gradient-1, linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%));
+    }
+    .cntn{
+        margin: 17px 107px 16px 106px;
+    }
+}
