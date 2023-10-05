@@ -1,7 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Hanken Grotesk;
 }
 
 .mainbox{
@@ -57,10 +68,13 @@
 .item5{
     display: flex;
     justify-content: center;
-    border-radius: 12px;
+    border-radius: 28px;
+    background-color: rgba(48, 59, 89, 1);
+
     
-background-color:navy;
 }
+    
+
 
 .logos{
     width: 20px;
@@ -84,13 +98,23 @@ font-weight: 700;
 }
 .categories{
     margin-top: 17px;
+    font-weight: 500;
     
 }
-.container{
-    background: var(--White, #FFF);
-}
 
-.box{
+.txt1{
+     color: var(--Red, #F55);;
+}
+.txt2{
+    color: var(--Yellow, #FFB21E);
+}
+.txt3{
+    color: var(--Green, #00BB8F);
+}
+.txt4{
+color: var(--Blue, #1125D6);
+}
+.bluebox{
     width: 100%;
     height: 356px;
     border-radius: 0px 0px 32px 32px;
@@ -120,7 +144,7 @@ h1{
     line-height: 72px;
 }
 
-h6{
+h3{
     color: var(--Light-Blue, #CAC9FF);
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Hanken Grotesk;
@@ -131,7 +155,7 @@ h6{
     opacity: 0.5168;
     padding-left: 9px;   
 }
-h3{
+h2{
     color: var(--Light-Blue, #CAC9FF);
     text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
@@ -142,7 +166,7 @@ h3{
     line-height: normal;
     padding: 24px 140px 0px 140px;
 }
-.urperf{
+.comment{
     color: var(--Light-Blue, #CAC9FF);
     text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
@@ -153,13 +177,18 @@ h3{
     line-height: normal;
     margin: 8px 57px 40px;
 }
-h2{
+h4{
     color: var(--White, #FFF);
     text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Hanken Grotesk;
     font-size: 24px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+}
+
+button{
+    color: white;
+    width: 100%;
+    border-radius: 28px;
+    background-color: rgb(33, 33, 173);
 }
