@@ -21,6 +21,10 @@ body{
 }
 
 .whitebox{
+    padding-top: 20px;
+    position: relative;
+    top: -26px;
+    z-index: -1;
     width: 375px;
     height: 453px;
     background: var(--White, #FFF);
